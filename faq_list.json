@@ -1,0 +1,27 @@
+[
+    {
+        "id": "Q1",
+        "question": "Why did the chicken cross the road?",
+        "answer": "To get to other side!"
+    },
+    {
+        "id": "Q2",
+        "question": "Who is buried in Grant's tomb?",
+        "answer": "Ulysses S. Grant (1822-1885), the 18th President of the United States"
+    },
+    {
+        "id": "Q3",
+        "question": "What are rainbows made of?",
+        "answer": "Sun, rain and smiles!"
+    },
+    {
+        "id": "Q4",
+        "question": "How much wood can a wood chuck chuck?",
+        "answer": "More tham a little, less than a lot!"
+    },
+    {
+        "id": "Q5",
+        "question": "What covers the sun during an eclise?",
+        "answer": "The Moon"
+    }
+]

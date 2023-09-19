@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FAQ</title>
+    <style>
+        body{
+            font-family: sans-serif;
+        }
+        h3{
+            padding: 5px;
+            margin: 0px;
+        }
+        #question_list{
+            list-style: none;
+            padding-left: 0px;
+            width: 60%;
+        }
+        .answer{
+            display: none;
+        }
+        .question{
+            background-color: lightcyan;
+            color: blue;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <h1>Frequently Asked Questions (FAQ) List</h1>
+    <h2>Question:</h2>
+    <ol id="question_list"></ol>
+    <input type="button" value="Show all" id="show_all">
+    <input type="button" value="Hide all" id="hide_all">
+
+    <script src="faq_list.js"></script>
+
+    <script>
+        window.onload = function (){
+            
+            insertQuestions();
+            document.getElementById("question_list").onclick = onQuestionClick;
+            
+            document.getElementById("show_all").onclick = onClickShowAll;
+            document.getElementById("hide_all").onclick = onClickHideAll;
+
+        }
+    </script>
+</body>
+</html>
