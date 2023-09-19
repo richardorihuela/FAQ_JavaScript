@@ -23,7 +23,6 @@ function insertQuestions(){
                 template = template.replaceAll("{question}", myJsonObjectArray[i].question);
                 template = template.replaceAll("{answer}", myJsonObjectArray[i].answer);
                 html_text += template;
-                //console.log(html_text);
             }
             
             document.getElementById("question_list").innerHTML = html_text;
